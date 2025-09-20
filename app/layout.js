@@ -1,6 +1,6 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import "bootstrap/dist/css/bootstrap.min.css";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 import Navbar from "./Navbar/Navbar";
 
@@ -23,9 +23,6 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <head>
-        <title>Maii's Portfolio</title>
-      </head>
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
         <Navbar/>
         {children}
