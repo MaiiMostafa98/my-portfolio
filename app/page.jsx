@@ -9,9 +9,14 @@ export default function page() {
   
    <div className='home-intro'>
     <div className="home-card ">
-        <div className='row container'>
-          <div className='col-12 col-md-8 mb-4 text-center text-md-start'>
-             <div className="home-intro-content ">
+        <div className='row  align-items-center'>
+         <div className='col-12 col-md-4 mb-4 text-center '>
+               <div className="home-img ">
+                  <Image src={myImage} alt='myPic' />
+               </div>
+          </div>
+          <div className='col-12 col-md-8 text-center text-md-start'>
+             <div className=" ps-4 ">
                 <h4>Hello I'm <strong className='h3'>  Maii Mostafa</strong> </h4>
     
                 <h1>UI Developer</h1>
@@ -20,11 +25,7 @@ export default function page() {
                 <button><strong><Link href="/About">More About Me</Link></strong></button>
              </div>
           </div>
-          <div className='col-12 col-md-4 mb-4 text-center  '>
-               <div className="home-img">
-                  <Image src={myImage} alt='myPic' />
-               </div>
-          </div>
+          
 
         </div>
     </div>
