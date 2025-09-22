@@ -22,7 +22,8 @@ export default function page() {
                 <h1>UI Developer</h1>
                 <p className="p">"I create clean, responsive designs with a focus on modern user interfaces. I bring ideas to life through thoughtful, </p>
                 <p>detail-driven design and a strong emphasis on usability."</p>
-                <button><strong><Link href="/About">More About Me</Link></strong></button>
+                {/* <button ><strong><Link href="/About">More About Me</Link></strong></button> */}
+                <Link href="/About"><button ><strong>More About Me</strong></button></Link>
              </div>
           </div>
           

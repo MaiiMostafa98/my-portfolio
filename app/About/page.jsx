@@ -15,7 +15,7 @@ export default function page() {
   <div className='container pt-3 pb-3 row'>
 
 
-    <div className='leftSide col-md-4  '>
+    <div className='leftSide col-md-4 ps-5 '>
       <table>
       <tbody>
          <tr>
@@ -39,13 +39,14 @@ export default function page() {
     </table>
 
       <div className='me-5'>
-         <button><strong><Link href="/Projects">View My Projects</Link></strong></button>
-         <button><strong><Link href="https://drive.google.com/file/d/1WkpGMW-acvAf9vyyH61NLvbV7O9XZfkK/view?usp=sharing" target="_blank">Download CV</Link></strong></button>
+         <Link href="/Projects"><button><strong>View My Projects</strong></button></Link>
+         <Link href="https://drive.google.com/file/d/1WkpGMW-acvAf9vyyH61NLvbV7O9XZfkK/view?usp=sharing" target="_blank"><button><strong>Download CV</strong></button></Link>
      </div>
        
        {/* <button ><a href="https://www.linkedin.com/in/maii-mostafa-b11a47188/" target="_blank">Linked-In</a></button>     */}
 
     </div>
+
 
     <div className='rightSide ps-5 col-md-8'>
         <div className='pt-4 pb-4'>
@@ -77,12 +78,8 @@ export default function page() {
            </div>
 
         </div>
-       
-
       </div>
-
     </div>
-
 
   </div>  
 
