@@ -23,7 +23,8 @@ export default function page() {
                 <p className="p">"I create clean, responsive designs with a focus on modern user interfaces. I bring ideas to life through thoughtful, </p>
                 <p>detail-driven design and a strong emphasis on usability."</p>
                 {/* <button ><strong><Link href="/About">More About Me</Link></strong></button> */}
-                <Link href="/About"><button ><strong>More About Me</strong></button></Link>
+                <Link href="/Projects"><button ><strong>View My Projects</strong></button></Link>
+                <Link href="/About"><button className='bt-gray' ><strong>More About Me</strong></button></Link>
              </div>
           </div>
           

@@ -12,24 +12,24 @@ export default function page() {
             <h1 className='h2'>About Me</h1>
         </div>
   
-  <div className='container pt-3 pb-3 row'>
+  <div className=' pt-3 pb-3 row '>
 
 
-    <div className='leftSide col-md-4 ps-5 '>
+    <div className='leftSide col-md-4  '>
       <table>
       <tbody>
          <tr>
-          <td className='pb-4'>Address :</td>
+          <td className='pb-4'>Address:</td>
           <td className='ps-3 pb-4'>New Cairo , Egypt</td>
         </tr>
         <tr>
           <td className='pb-4'>Phone :</td>
           <td className='ps-3 pb-4'>01145446083</td>
         </tr>
-        <tr>
+        {/* <tr>
           <td className='pb-4'>Brirth Date :</td>
           <td className='ps-3 pb-4 '>28-April-1998</td>
-        </tr>
+        </tr> */}
         <tr>
           <td className=''>E-mail :</td>
           <td className='ps-3 '>MaiiMustafa_98@outlook.com</td>
@@ -39,8 +39,8 @@ export default function page() {
     </table>
 
       <div className='me-5'>
-         <Link href="/Projects"><button><strong>View My Projects</strong></button></Link>
-         <Link href="https://drive.google.com/file/d/1WkpGMW-acvAf9vyyH61NLvbV7O9XZfkK/view?usp=sharing" target="_blank"><button><strong>Download CV</strong></button></Link>
+         <Link href="/Projects"><button ><strong>View My Projects</strong></button></Link>
+         <Link href="https://drive.google.com/file/d/1WkpGMW-acvAf9vyyH61NLvbV7O9XZfkK/view?usp=sharing" target="_blank"><button ><strong>Download CV</strong></button></Link>
      </div>
        
        {/* <button ><a href="https://www.linkedin.com/in/maii-mostafa-b11a47188/" target="_blank">Linked-In</a></button>     */}
@@ -48,7 +48,7 @@ export default function page() {
     </div>
 
 
-    <div className='rightSide ps-5 col-md-8'>
+    <div className='rightSide ps-5  col-md-8'>
         <div className='pt-4 pb-4'>
         <h4>My Skills: </h4>
         <div>

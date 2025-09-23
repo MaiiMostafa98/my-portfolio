@@ -28,7 +28,7 @@
 
 .navbar-logo
 {
-    padding: 10px 0px 10px 50px;
+    padding: 10px 0px 10px 20px; 
     margin-left: 30px; 
     color: rgb(244, 243, 246); 
     font-family: "Agustina Regular";
@@ -43,7 +43,7 @@
 li
 {
     display: inline-block;
-    padding: 10px 0px 0px 40px;
+    padding: 10px 0px 0px 0px;
 }
 
 
@@ -122,11 +122,34 @@ ul li a:hover
 {
     padding: 10px 30px;
     margin: 40px 10px 10px 0px;
-    background-color: rgb(148, 148, 149);
+   background-color: rgb(182, 182, 183);
     border-radius: 15px ;
     border:solid 2px rgb(190, 189, 189);
     color:rgb(244, 243, 246) ;
 }
+
+
+.home-intro  .bt-gray
+{
+    padding: 10px 30px;
+    margin: 40px 10px 10px 0px;
+    background-color: rgb(182, 182, 183);
+    border-radius: 15px ;
+    border:solid 2px rgb(190, 189, 189);
+    color:rgb(244, 243, 246) ;
+    transition: 1s;
+}
+
+.home-intro  .bt-gray:hover
+{
+    padding: 10px 30px;
+    margin: 40px 10px 10px 0px;
+     background-color: rgb(188, 165, 207);
+    border-radius: 15px ;
+    border:solid 2px rgb(190, 189, 189);
+    color:rgb(244, 243, 246) ;
+}
+
 
 
 .home-intro button a
@@ -207,7 +230,8 @@ ul li a:hover
   
   padding-right: 60px;
   width: 20%;
-  margin-bottom: 30px;
+  margin-bottom: 25px;
+  
 }
 
 
@@ -251,7 +275,7 @@ ul li a:hover
 {
     border-radius: 10px;
     border: 2px solid transparent;
-    padding: 20px 60px 30px 60px ;
+    padding: 20px 60px 30px 50px ;
     width: 90%;
     margin: auto;
     margin-top: 150px;
