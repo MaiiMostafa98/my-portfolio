@@ -10,8 +10,8 @@ export default function Navbar() {
       <div className='col-sm-12 col-md-6 '>
          <a href='/' className='link-offset-0 link-underline  link-underline-opacity-0'><h3 className='navbar-logo'>{'< Maii Mostafa / >'}</h3></a>
       </div>
-      <div className='col-sm-12   col-md-6 d-flex justify-content-center  '>
-           <ul className=' d-flex justify-content-end pt-2 pe-5 '>
+      <div className='col-sm-12  col-md-6 '>
+           <ul className=' d-flex justify-content-around pt-2  '>
             <li>
                 <Link href="/">Home</Link>
             </li> 

@@ -16,7 +16,7 @@ export default function page() {
                </div>
           </div>
           <div className='col-12 col-md-8 text-center text-md-start'>
-             <div className=" ps-4 ">
+             <div>
                 <h4>Hello I'm <strong className='h3'>  Maii Mostafa</strong> </h4>
     
                 <h1>UI Developer</h1>
