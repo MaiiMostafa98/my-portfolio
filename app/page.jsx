@@ -10,8 +10,8 @@ export default function page() {
    <div className='home-intro'>
     <div className="home-card ">
         <div className='row  align-items-center'>
-         <div className='col-12 col-md-4 mb-4 text-center bg-danger '>
-               <div className="home-img bg-success">
+         <div className='col-12 col-md-4 mb-4 '>
+               <div className="home-img ">
                   <Image src={myImage} alt='myPic' />
                </div>
           </div>
