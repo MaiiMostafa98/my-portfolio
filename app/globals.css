@@ -26,6 +26,8 @@
     border-bottom-right-radius: 7px;
 }
 
+
+
 .navbar-logo
 {
     padding: 10px 0px 10px 20px; 
@@ -291,11 +293,7 @@ ul li a:hover
    
 }
 
-.projects
-{
-    padding: 30px 0px;
 
-}
 
  .pageintro-proj button
 {
@@ -344,12 +342,10 @@ ul li a:hover
 {
     color: rgb(188, 165, 207) ;
 }
-/* .projects .img
+.projects-second h2 
 {
-    width: 400px;
-    height: 180px ;
-    
-} */
+    color: rgb(188, 165, 207) ;
+}
 
 .page-card-proj
 {
@@ -365,7 +361,7 @@ ul li a:hover
 .line1
 {
     width: 50%;
-    background-color: gray;
+    background-color: rgb(194, 194, 194);
     height: 1px;
     padding: 1px 0px;
     margin: auto;
@@ -374,18 +370,34 @@ ul li a:hover
 .projects
 {
     transition: 1s;
-    margin-top: 20px;
     padding: 15px 20px 0px 20px;
     margin: 30px 0px 30px 0px;
-    border-radius: 5px;
-    
+    /* border-radius: 5px;
+    border: solid 2px gray */
 }
-.projects:hover
+.projects-second
 {
-    transform: scale(1.01 , 1.01);
+    transition: 1s;
+    padding: 15px 20px 0px 20px;
+    margin: 30px 0px 30px 0px;
+    border-left: solid 2px rgb(202, 202, 202);
+    border-right: solid 2px rgb(202, 202, 202);
+}
+
+
+/* .projects:hover
+{
+    
     border-radius: 5px;
     padding: 15px 20px 0px 20px;
     box-shadow: 0 4px 8px 0 rgba(38, 38, 38, 0.2), 0 6px 20px 0 rgb(166, 166, 167);
     margin: 30px 0px 30px 0px;
    
+} */
+
+.textShadow
+{
+    text-shadow: 3px 3px 3px rgb(192, 192, 192);
+
 }
+
