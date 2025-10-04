@@ -298,7 +298,8 @@ ul li a:hover
  .pageintro-proj button
 {
     padding: 10px 15px;
-    margin: 5px 10px 30px 0px;
+    /* margin: 5px 10px 30px 0px; */
+    margin: 5px 0px 15px 15px;
     background-color: rgb(188, 165, 207);
     border-radius: 15px ;
     border:solid 2px rgb(190, 189, 189);
@@ -309,7 +310,8 @@ ul li a:hover
 .pageintro-proj button:hover
 {
     padding: 10px 15px;
-    margin: 5px 10px 30px 0px;
+    /* margin: 5px 10px 30px 0px; */
+    margin: 5px 0px 15px 15px;
     background-color: rgb(148, 148, 149);
     border-radius: 15px ;
     border:solid 2px rgb(190, 189, 189);
@@ -369,31 +371,43 @@ ul li a:hover
 
 .projects
 {
-    transition: 1s;
-    padding: 15px 20px 0px 20px;
-    margin: 30px 0px 30px 0px;
-    /* border-radius: 5px;
-    border: solid 2px gray */
-}
-.projects-second
-{
-    transition: 1s;
-    padding: 15px 20px 0px 20px;
-    margin: 30px 0px 30px 0px;
-    border-left: solid 2px rgb(202, 202, 202);
-    border-right: solid 2px rgb(202, 202, 202);
-}
-
-
-/* .projects:hover
-{
-    
     border-radius: 5px;
     padding: 15px 20px 0px 20px;
-    box-shadow: 0 4px 8px 0 rgba(38, 38, 38, 0.2), 0 6px 20px 0 rgb(166, 166, 167);
-    margin: 30px 0px 30px 0px;
-   
+    margin: 30px 0px 0px 0px;
+    transition: 1s;
+    /* border: solid 2px transparent; */
+     border: solid 2px #d7d7d7;
+}
+
+.projects:hover
+{
+    border-radius: 5px;
+    border: solid 2px #d7d7d7;
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgb(126, 125, 128);
+}
+
+/* .projects-second
+{
+    border-radius: 5px;
+    padding: 15px 20px 0px 20px;
+    margin: 30px 0px 0px 0px;
+    border-left: solid 2px #d7d7d7;
+    border-right: solid 2px #d7d7d7;
+    border-top: solid 2px transparent;
+    border-bottom: solid 2px transparent;
+    border: solid 2px #d7d7d7;
+    transition: 1s;
 } */
+
+
+/* .projects-second:hover 
+{
+    border-radius: 5px;
+    border: solid 2px #d7d7d7;
+    transform: scale(1.05);
+} */
+
 
 .textShadow
 {
@@ -401,3 +415,20 @@ ul li a:hover
 
 }
 
+.projects1
+{
+    border-radius: 5px;
+    padding: 15px 20px 0px 20px;
+    margin: 30px 0px 15px 0px;
+    transition: 1s;
+    /* border: solid 2px transparent; */
+     border: solid 2px #d7d7d7;
+}
+
+.projects1:hover
+{
+    border-radius: 5px;
+    border: solid 2px #d7d7d7;
+    transform: scale(1.01);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgb(126, 125, 128);
+}
