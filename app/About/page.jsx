@@ -19,17 +19,13 @@ export default function page() {
       <table>
       <tbody>
          <tr>
-          <td className='pb-4'>Address:</td>
-          <td className='ps-3 pb-4'>New Cairo , Egypt</td>
+          <td className='pb-5'>Address:</td>
+          <td className='ps-3 pb-5'>New Cairo , Egypt</td>
         </tr>
         <tr>
-          <td className='pb-4'>Phone :</td>
-          <td className='ps-3 pb-4'>01145446083</td>
+          <td className='pb-5'>Phone :</td>
+          <td className='ps-3 pb-5'>01145446083</td>
         </tr>
-        {/* <tr>
-          <td className='pb-4'>Brirth Date :</td>
-          <td className='ps-3 pb-4 '>28-April-1998</td>
-        </tr> */}
         <tr>
           <td className=''>E-mail :</td>
           <td className='ps-3 '>MaiiMustafa_98@outlook.com</td>
@@ -40,7 +36,7 @@ export default function page() {
 
       <div className='me-5'>
          <Link href="/Projects"><button ><strong>View My Projects</strong></button></Link>
-         <Link href="https://drive.google.com/file/d/1WkpGMW-acvAf9vyyH61NLvbV7O9XZfkK/view?usp=sharing" target="_blank"><button ><strong>Download CV</strong></button></Link>
+         <Link href="https://drive.google.com/file/d/1nnGadn-nQqlPOmu0tTGJrHedEHWND-C4/view?usp=sharing" target="_blank"><button ><strong>Download CV</strong></button></Link>
      </div>
        
        {/* <button ><a href="https://www.linkedin.com/in/maii-mostafa-b11a47188/" target="_blank">Linked-In</a></button>     */}

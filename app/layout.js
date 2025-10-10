@@ -4,6 +4,11 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Head from 'next/head';
 import Navbar from "./Navbar/Navbar";
 
+import '@fortawesome/fontawesome-svg-core/styles.css';
+import { config } from '@fortawesome/fontawesome-svg-core';
+config.autoAddCss = false;
+
+
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
