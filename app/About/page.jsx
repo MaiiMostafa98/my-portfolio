@@ -36,7 +36,7 @@ export default function page() {
 
       <div className='me-5'>
          <Link href="/Projects"><button ><strong>View My Projects</strong></button></Link>
-         <Link href="https://drive.google.com/file/d/1nnGadn-nQqlPOmu0tTGJrHedEHWND-C4/view?usp=sharing" target="_blank"><button ><strong>Download CV</strong></button></Link>
+         <Link href="https://drive.google.com/file/d/14luveyd6FMqHUv4pLmMk5xssvjUEg1m-/view?usp=sharing" target="_blank"><button ><strong>Download CV</strong></button></Link>
      </div>
        
        {/* <button ><a href="https://www.linkedin.com/in/maii-mostafa-b11a47188/" target="_blank">Linked-In</a></button>     */}
