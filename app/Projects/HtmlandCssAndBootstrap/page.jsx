@@ -4,7 +4,7 @@ export default function page() {
   return <>
      <div className='   '>
 
-         <h4 className='mt-2 mb-3 ps-2 textShadow text-decoration-underline'> -Technologies Used : <strong> </strong>HTML5, CSS3 and Bootstrap</h4>
+         <h4 className='mt-2 mb-3 ps-2  text-decoration-underline'> <strong> </strong>-HTML, CSS and Bootstrap Projects</h4>
             
             <div className='row  pb-3'>
 

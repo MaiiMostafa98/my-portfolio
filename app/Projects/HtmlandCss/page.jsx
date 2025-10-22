@@ -4,8 +4,11 @@ export default function HtmlandCss() {
   return <>
      <div className='   '>
 
-         <h4 className='mt-2 mb-3 ps-2 textShadow text-decoration-underline'> -Technologies Used : <strong> </strong>HTML5, CSS3</h4>
-            
+        <h4 className='mt-2 mb-3 ps-2  text-decoration-underline'> <strong> </strong>-HTML and CSS Projects</h4>
+
+
+         {/* <h4 className='mt-2 mb-3 ps-2 textShadow text-decoration-underline'> -Technologies Used : <strong> </strong>HTML5, CSS3</h4>
+             */}
             <div className='row  pb-3'>
 
              <div className=' col-sm-12 col-md-12 projects1  '>

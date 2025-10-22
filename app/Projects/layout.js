@@ -5,9 +5,9 @@ export default function layout({children}) {
   <div>
     <div className="pageintro-proj " >
     <div className="page-card-proj ">
-        <div className='aboutme'>
+        {/* <div className='aboutme'>
             <h1 className='h2'>My Projects</h1>
-        </div>
+        </div> */}
     {children}
     </div>
     </div>
