@@ -4,6 +4,28 @@ export default function HtmlandCss() {
   return <>
      <div className='   '>
 
+        {/* <div className='col-md-2 '>
+          <h1 className='h3'>PROJECTS:</h1>
+          <ul className='secondNav  mt-5'>
+            <li>
+              <a href="../Projects" >- All Projects</a>
+            </li>
+            <li>
+              <a href="../Projects/HtmlandCss" >- HTML and CSS</a>
+            </li>
+            <li>
+              <a href='../Projects/HtmlandCssAndBootstrap'>- HTML,CSS and Bootstrap</a>
+            </li>
+            <li>
+              <a href='../Projects/JavaScript'>- JavaScript</a>
+            </li>
+            <li>
+             <a href='../Projects/NextAndReact'>- React and Next.js Projects</a>
+            </li>
+          </ul>
+        </div> */}
+
+      <div className=''>
         <h4 className='mt-2 mb-3 ps-2  text-decoration-underline'> <strong> </strong>-HTML and CSS Projects</h4>
 
 
@@ -54,6 +76,8 @@ export default function HtmlandCss() {
               </div>
             </div>
             </div>
-            </div>
+      </div>
+        
+        </div>
   </>
 }

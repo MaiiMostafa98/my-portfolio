@@ -433,3 +433,28 @@ ul li a:hover
     transform: scale(1.01);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgb(126, 125, 128);
 }
+
+/* ----------------------------------------------------------------------------------- */
+.secondNav li a
+{
+    text-decoration: none;
+    color: gray;
+    transition: 0.5s;
+    border: none;
+}
+
+.secondNav li a:hover
+{
+    text-decoration: none;
+    color: gray;
+    border: none;
+}
+
+
+.secondNav li
+{
+    text-align: start;
+    padding: 25px 0px 0px 0px;
+  
+
+}

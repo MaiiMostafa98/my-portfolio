@@ -65,7 +65,7 @@ export default function page() {
                   <h2 className='text-center h4'>React and Next.js Projects</h2>
                   <p>Clean and responsive front-end projects developed using JavaScript.  </p>
                <ul className=" list-group-flush mb-3 ">
-                 <li className="list-group-item">-Quote of the Day Website</li>
+                 <li className="list-group-item">-</li>
                </ul>
                   <a href="../Projects/NextAndReact" > <button >View projects</button></a>
               </div>

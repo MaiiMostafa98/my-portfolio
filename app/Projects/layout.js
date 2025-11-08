@@ -8,9 +8,12 @@ export default function layout({children}) {
         {/* <div className='aboutme'>
             <h1 className='h2'>My Projects</h1>
         </div> */}
-    {children}
+
+        {children}
+
+       </div>
     </div>
     </div>
-  </div>
+  
   </>
 }

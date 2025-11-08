@@ -3,6 +3,7 @@
 import { useRouter } from 'next/navigation';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTriangleExclamation } from '@fortawesome/free-solid-svg-icons';
+import Link from 'next/link';
 
 export default function NotFound() {
   const router = useRouter();
@@ -29,6 +30,10 @@ return (
       <p  style={styles.message}>
         PAGE NOT FOUND.
       </p>
+      <div className='d-flex justify-content-center gap-2 '>
+       <Link href='/Projects'> <button className='btn btn-outline-secondary'> Back to My Projects </button></Link>
+       <Link href='/'> <button className='btn btn-outline-secondary'> Back to Home Page </button></Link>
+      </div>
 
     </div>
   );

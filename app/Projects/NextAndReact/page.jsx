@@ -11,12 +11,12 @@ export default function page() {
 
              <div className=' col-sm-12 col-md-12 projects1  '>
              <div className="text-center">
-             <h2 className="text-center">............</h2>
-             <p><strong>Description:</strong> A simple and elegant website that displays a new inspirational quote each day. </p>
-             <p><strong>Details:</strong>This project features a clean, minimalistic design with a strong focus on readability and user experience.</p>
-             <p>Built using HTML, CSS, and JavaScript, the app ensures fresh and engaging content with every visit or interaction. The layout is fully responsive and optimized for seamless performance across all screen sizes.</p>
+             <h2 className="text-center">React Project</h2>
+             <p><strong>Description:</strong> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe, facilis! </p>
+             <p><strong>Details:</strong> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero tempora ipsum nulla amet corrupti cum?</p>
+             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati non, iure voluptate ducimus consectetur nemo dolorum laboriosam neque soluta ea!</p>
              <div className="d-flex justify-content-center">
-             <a href="  123  " target="_blank" rel="noopener noreferrer">
+             <a href="  NotFound  "  rel="noopener noreferrer">
              <button>Project Link</button></a>
              </div>
              </div>
