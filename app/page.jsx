@@ -19,7 +19,7 @@ export default function page() {
              <div>
                 <h4>Hello, I'm <strong className='h3'>  Maii Mostafa</strong> </h4>
     
-                <h1>UI Developer</h1>
+                <h1>Front-end Developer</h1>
                 <p className="p h5">"I create clean, responsive, and modern user interfaces with a strong focus on usability and user experience. I bring ideas to life through thoughtful, detail-oriented design and a passion for turning complex problems into intuitive digital solutions. </p>
                 {/* <button ><strong><Link href="/About">More About Me</Link></strong></button> */}
                 <Link href="/Projects"><button ><strong>View My Projects</strong></button></Link>

@@ -60,10 +60,10 @@ export default function page() {
            <div className="progress me-5" role="progressbar" aria-label="Basic example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
             <div className=" width-85" ></div>
            </div>
-           {/* <p className='pt-3'>javaScript 50%</p>
+           <p className='pt-3'>javaScript 50%</p>
            <div className="progress me-5" role="progressbar" aria-label="Basic example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
             <div className=" w-50 bg-lavander" ></div>
-           </div> */}
+           </div>
            {/* <p className='pt-3'>React 50%</p>
            <div className="progress me-5" role="progressbar" aria-label="Basic example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
             <div className=" w-50 bg-lavander" ></div>
