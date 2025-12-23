@@ -54,6 +54,7 @@ export default function page() {
                   <p>Clean and responsive front-end projects developed using JavaScript.  </p>
                <ul className=" list-group-flush mb-3 ">
                  <li className="list-group-item">-Quote of the Day Website</li>
+                 <li className="list-group-item">-Book Marker</li>
                </ul>
                   <a href="../Projects/JavaScript" > <button >View projects</button></a>
               </div>
