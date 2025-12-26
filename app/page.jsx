@@ -2,26 +2,26 @@
 
 import Link from 'next/link'
 import Image from 'next/image'
-// import myImage from './maii33.jpeg'
-import myImage from '../app/images/ai-maii.jpeg'
+import myImage from '../app/images/3.png'
 import React from 'react'
 
 export default function page() {
 
-   const handleContextMenu = (e) => {
-    e.preventDefault(); // يمنع الكليك يمين
-  };
   return <>
   
-   <div className='home-intro ' onContextMenu={(e) => e.preventDefault()}>
+   <div className='home-intro ' >
     <div className="home-card ">
-        <div className='row  align-items-center'>
-         {/* <div className='col-12 col-md-4 mb-4 '>
+        <div className='row '>
+
+
+         <div className='col-12 col-md-4 mb-4 '>
                <div className="home-img ">
                   <Image src={myImage} alt='myPic' />
                </div>
-          </div> */}
-          <div className='col-12 col-md-8 text-center text-md-start'>
+          </div>
+
+
+          <div className='col-12 col-md-8 text-center text-md-start '>
              <div>
                 <h4>Hello, I'm <strong className='h3'>  Maii Mostafa</strong> </h4>
     
@@ -34,11 +34,11 @@ export default function page() {
           </div>
 
 
-           <div className='col-12 col-md-4 mb-4 '>
+           {/* <div className='col-12 col-md-4 mb-4 '>
                <div className="home-img  " >
                   <Image src={myImage} alt='myPic' />
                </div>
-          </div>
+          </div> */}
 
         </div>
     </div>

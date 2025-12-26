@@ -5,6 +5,8 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Agustina Regular";
+    /* outline: 1px solid red; */
+    /* overflow-x: hidden; */
 }
 
 
@@ -25,6 +27,12 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(98, 97, 97, 0.19);
     border-bottom-left-radius: 7px;
     border-bottom-right-radius: 7px;
+}
+
+.navbar1 button
+{
+    background-color: transparent;
+    border: none;
 }
 
 
@@ -113,7 +121,7 @@ ul li a:hover
 .home-intro  button
 {
     padding: 10px 30px;
-    margin: 40px 10px 10px 0px;
+    margin: 60px 10px 10px 0px;
     background-color: rgb(188, 165, 207);
     border-radius: 15px ;
     border:solid 2px rgb(190, 189, 189);
@@ -124,7 +132,7 @@ ul li a:hover
 .home-intro  button:hover
 {
     padding: 10px 30px;
-    margin: 40px 10px 10px 0px;
+    margin: 60px 10px 10px 0px;
    background-color: rgb(182, 182, 183);
     border-radius: 15px ;
     border:solid 2px rgb(190, 189, 189);
@@ -177,11 +185,12 @@ ul li a:hover
 
 .home-img img
 {
+    
     width: 330px;
     height: 330px;
-    border-radius: 50%;
-    border:solid 2px rgb(190, 189, 189);
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgb(168, 143, 188);
+    /* border-radius: 50%; */
+    /* border:solid 2px rgb(190, 189, 189);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgb(168, 143, 188); */
     pointer-events: none; 
     user-select: none;    
    -webkit-user-drag: none;

@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
-import myImage from '../images/bakery.jpg'
+// import myImage from '../images/bakery.jpg'
 
 
 export default function page() {
