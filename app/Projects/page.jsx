@@ -55,6 +55,7 @@ export default function page() {
                <ul className=" list-group-flush mb-3 ">
                  <li className="list-group-item">-Quote of the Day Website</li>
                  <li className="list-group-item">-Book Marker</li>
+                 <li className="list-group-item">-Products Dashboard</li>
                </ul>
                   <a href="../Projects/JavaScript" > <button >View projects</button></a>
               </div>
