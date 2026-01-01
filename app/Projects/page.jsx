@@ -18,7 +18,7 @@ export default function page() {
 
             <div className=' col-sm-12 col-md-12 projects   '>
               <div className='  text-center  '>
-                  <h2 className='text-center h4'>HTML , CSS and Bootstrap Projects</h2>
+                  <h2 className='text-center h4'>HTML , CSS & Bootstrap Projects</h2>
                   <p>Simple and responsive designs built using  HTML , CSS and Bootstrap.</p>
                <ul className=" list-group-flush mb-3 ">
                 <li className="list-group-item pe-5">-Daniel Website</li>
