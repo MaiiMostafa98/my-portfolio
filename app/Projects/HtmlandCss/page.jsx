@@ -31,7 +31,7 @@ export default function HtmlandCss() {
 
          {/* <h4 className='mt-2 mb-3 ps-2 textShadow text-decoration-underline'> -Technologies Used : <strong> </strong>HTML5, CSS3</h4>
              */}
-            <div className='row  pb-3'>
+            {/* <div className='row  pb-3'>
 
              <div className=' col-sm-12 col-md-12 projects1  '>
               <div className='  text-center  '>
@@ -75,7 +75,7 @@ export default function HtmlandCss() {
                    
               </div>
             </div>
-            </div>
+            </div> */}
       </div>
         
         </div>
