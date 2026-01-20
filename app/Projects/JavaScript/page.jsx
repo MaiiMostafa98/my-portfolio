@@ -51,7 +51,7 @@ export default function page() {
              <p><strong>Details:</strong>This project features a clean, minimalistic design with a strong focus on usability and user experience. Users can register and log in, then add, edit, and delete products easily. The app uses LocalStorage to persist data, ensuring that entries are saved even after refreshing the page or closing the browser.</p>
              <p>Built using HTML, Bootstrap, and JavaScript. The layout is fully responsive and optimized for seamless performance across all devices, including desktops, tablets, and mobile screens..</p>
              <div className="d-flex justify-content-center">
-             <a href="https://maiimostafa98.github.io/products-Dashboard/" target="_blank" rel="noopener noreferrer">
+             <a href="https://maiimostafa98.github.io/Products-Dashboard/" target="_blank" rel="noopener noreferrer">
              <button>Project Link</button></a>
              </div>
              </div>
