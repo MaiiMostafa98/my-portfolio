@@ -68,7 +68,7 @@ export default function page() {
            <div className="progress me-5" role="progressbar" aria-label="Basic example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
             <div className=" w-50 bg-lavander" ></div>
            </div> */}
-           <p className='pt-3'>Next.js 75%</p>
+           <p className='pt-3'>React.js & Next.js 75%</p>
            <div className="progress me-5" role="progressbar" aria-label="Basic example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
             <div className=" w-75 bg-lavander" ></div>
            </div>
