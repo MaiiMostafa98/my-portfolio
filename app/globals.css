@@ -19,7 +19,8 @@
 
 .navbar1
 {
-    background-color: rgb(169, 149, 185) ;
+    /* background-color: rgb(169, 149, 185) ; */
+    background-color: rgb(232, 232, 232) ;
     width: 100%;
     position: fixed;
     z-index: 9999;
@@ -39,12 +40,12 @@
 .navbar-logo
 {
     
-    color: rgb(244, 243, 246); 
+    color:rgb(125, 89, 125); 
     font-family: "Agustina Regular";
     font-optical-sizing:inherit;
     font-weight: 500;
     font-style:italic;
-    text-shadow: 2px 2px 2px rgb(98, 96, 96);
+    text-shadow: 2px 2px 2px rgb(165, 157, 165);
 }
 
 
@@ -59,7 +60,7 @@ li
 ul li a
 {
     text-decoration: none;
-    color: rgb(244, 243, 246);
+    color: rgb(135, 101, 135);
     border: transparent solid 3px;
     /* border-radius: 5px; */
     transition: 0.5s;
@@ -69,9 +70,9 @@ ul li a
 ul li a:hover
 {
     text-decoration: none;
-    color: rgb(244, 243, 246);
+    color: rgb(96, 79, 96);
     /* background-color: grey; */
-    border-bottom: rgb(111, 110, 111) solid 3px;
+    border-bottom: rgb(179, 113, 165) solid 3px;
     /* border-radius: 5px; */
 }
 
@@ -88,12 +89,7 @@ ul li a:hover
 }
 
 
-.home-intro h1 
-{
-  color: rgb(188, 165, 207);
-  padding-bottom: 2px;
-  /* border-bottom: 2px solid rgb(221, 221, 221); */
-}
+
 
 
 .home-intro
@@ -106,7 +102,8 @@ ul li a:hover
 .home-intro h1
 {
     padding: 5px 0px;
-    color: rgb(167, 144, 187);
+    /* color: rgb(167, 144, 187); */
+    color:  rgb(179, 113, 165);
 }
 
 .p 
@@ -118,7 +115,8 @@ ul li a:hover
 {
     padding: 10px 30px;
     margin: 60px 10px 10px 0px;
-    background-color: rgb(188, 165, 207);
+    /* background-color: rgb(188, 165, 207); */
+     background-color: rgb(179, 113, 165);
     border-radius: 15px ;
     border:solid 2px rgb(190, 189, 189);
     color:rgb(244, 243, 246) ;
@@ -129,7 +127,7 @@ ul li a:hover
 {
     padding: 10px 30px;
     margin: 60px 10px 10px 0px;
-   background-color: rgb(182, 182, 183);
+   background-color: rgb(143, 143, 144);
     border-radius: 15px ;
     border:solid 2px rgb(190, 189, 189);
     color:rgb(244, 243, 246) ;
@@ -140,7 +138,7 @@ ul li a:hover
 {
     padding: 10px 30px;
     margin: 40px 10px 10px 0px;
-    background-color: rgb(182, 182, 183);
+    background-color: rgb(143, 143, 144);
     border-radius: 15px ;
     border:solid 2px rgb(190, 189, 189);
     color:rgb(244, 243, 246) ;
@@ -151,7 +149,7 @@ ul li a:hover
 {
     padding: 10px 30px;
     margin: 40px 10px 10px 0px;
-     background-color: rgb(188, 165, 207);
+     background-color: rgb(179, 113, 165);
     border-radius: 15px ;
     border:solid 2px rgb(190, 189, 189);
     color:rgb(244, 243, 246) ;
@@ -189,7 +187,7 @@ ul li a:hover
 
     border-radius: 50%;
     border:solid 2px rgb(190, 189, 189);  
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgb(168, 143, 188);
+    box-shadow:  0 6px 10px 0 rgba(0, 0, 0, 0.4), 0 10px 30px 5px rgb(168, 143, 188);
 
 
     pointer-events: none; 
@@ -211,18 +209,18 @@ ul li a:hover
 .width
 {
    width: 95%;
-   background-color: rgb(206, 191, 218);
+   background-color: rgb(179, 113, 165);
 }
 
 .width-85
 {
    width: 85%;
-   background-color: rgb(206, 191, 218);
+   background-color: rgb(179, 113, 165);
 }
 
 .bg-lavander
 {
-    background-color: rgb(206, 191, 218);
+    background-color: rgb(179, 113, 165);
 }
 
 .rightSide
@@ -264,7 +262,7 @@ ul li a:hover
 {
     padding: 10px 15px;
     margin: 40px 10px 30px 0px;
-    background-color: rgb(188, 165, 207);
+    background-color: rgb(179, 113, 165);
     border-radius: 15px ;
     border:solid 2px rgb(190, 189, 189);
     color:rgb(244, 243, 246) ;
@@ -275,7 +273,7 @@ ul li a:hover
 {
     padding: 10px 15px;
     margin: 40px 10px 30px 0px;
-    background-color: rgb(148, 148, 149);
+    background-color: rgb(143, 143, 144);
     border-radius: 15px ;
     border:solid 2px rgb(190, 189, 189);
     color:rgb(244, 243, 246) ;
@@ -314,7 +312,7 @@ ul li a:hover
     padding: 10px 15px;
     /* margin: 5px 10px 30px 0px; */
     margin: 5px 0px 15px 15px;
-    background-color: rgb(188, 165, 207);
+    background-color: rgb(179, 113, 165);
     border-radius: 15px ;
     border:solid 2px rgb(190, 189, 189);
     color:rgb(244, 243, 246) ;
@@ -326,7 +324,7 @@ ul li a:hover
     padding: 10px 15px;
     /* margin: 5px 10px 30px 0px; */
     margin: 5px 0px 15px 15px;
-    background-color: rgb(148, 148, 149);
+    background-color: rgb(143, 143, 144);
     border-radius: 15px ;
     border:solid 2px rgb(190, 189, 189);
     color:rgb(244, 243, 246) ;
@@ -340,7 +338,7 @@ ul li a:hover
 
 .pageintro h1 
 {
-  color: gray;
+  color: rgb(143, 143, 144);
   padding-bottom: 2px;
   border-bottom: 2px solid rgb(159, 158, 158);
   
@@ -356,7 +354,7 @@ ul li a:hover
 
 .projects h2 
 {
-    color: rgb(188, 165, 207) ;
+    color: rgb(179, 113, 165) ;
 }
 .projects-second h2 
 {

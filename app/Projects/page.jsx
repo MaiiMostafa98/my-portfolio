@@ -21,11 +21,11 @@ export default function page() {
                   <h2 className='text-center h4'>HTML , CSS & Bootstrap Projects</h2>
                   <p>Simple and responsive designs built using  HTML , CSS and Bootstrap.</p>
                <ul className=" list-group-flush mb-3 ">
-                <li className="list-group-item pe-5">-Daniel Website</li>
-                 <li className="list-group-item pe-5">-Fokir Website</li>
-                 <li className="list-group-item pe-5">-Mealify Website</li>
-                 <li className="list-group-item pe-5">-Devfolio Website</li>
-                 <li className="list-group-item pe-5">-Bakery Website</li>
+                <li className="list-group-item pe-5">-Daniel</li>
+                 <li className="list-group-item pe-5">-Fokir</li>
+                 <li className="list-group-item pe-5">-Mealify</li>
+                 <li className="list-group-item pe-5">-Devfolio</li>
+                 <li className="list-group-item pe-5">-Bakery</li>
 
                </ul>
                   <a href="../Projects/HtmlandCssAndBootstrap" > <button className=' me-3'>View projects</button></a>
@@ -42,7 +42,7 @@ export default function page() {
                   <h2 className='text-center h4'>JavaScript Projects</h2>
                   <p>Clean and responsive front-end projects developed using JavaScript.  </p>
                <ul className=" list-group-flush mb-3 ">
-                 <li className="list-group-item pe-5">-Quote of the Day Website</li>
+                 <li className="list-group-item pe-5">-Quote of the Day </li>
                  <li className="list-group-item pe-5">-Book Marker</li>
                  <li className="list-group-item pe-5">-Products Dashboard</li>
                </ul>
@@ -54,9 +54,9 @@ export default function page() {
             <div className=' col-sm-12 col-md-12 projects  '>
               <div className='  text-center  '>
                   <h2 className='text-center h4'>React and Next.js Projects</h2>
-                  <p>Clean and responsive front-end projects developed using JavaScript.  </p>
+                  <p>Clean and responsive front-end projects developed using Next.js.  </p>
                <ul className=" list-group-flush mb-3 ">
-                 <li className="list-group-item pe-5">-</li>
+                 <li className="list-group-item pe-5">-My Portfolio</li>
                </ul>
                   <a href="../Projects/NextAndReact" > <button className='me-4'>View projects</button></a>
               </div>
