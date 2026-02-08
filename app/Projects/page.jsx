@@ -28,7 +28,7 @@ export default function page() {
                  <li className="list-group-item pe-5">-Bakery</li>
 
                </ul>
-                  <a href="../Projects/HtmlandCssAndBootstrap" > <button className=' me-3'>View projects</button></a>
+                  <a href="../Projects/HtmlandCssAndBootstrap" > <button className=' '>View projects</button></a>
               </div>
             </div>
 
@@ -42,12 +42,12 @@ export default function page() {
                   <h2 className='text-center h4'>JavaScript Projects</h2>
                   <p>Clean and responsive front-end projects developed using JavaScript.  </p>
                <ul className=" list-group-flush mb-3 ">
-                 <li className="list-group-item pe-5">-Quote of the Day </li>
-                 <li className="list-group-item pe-5">-Book Marker</li>
-                 <li className="list-group-item pe-5">-Products Dashboard</li>
                  <li className="list-group-item pe-5">-Chef's Menu</li>
+                 <li className="list-group-item pe-5">-Products Dashboard</li>
+                 <li className="list-group-item pe-5">-Book Marker</li>
+                 <li className="list-group-item pe-5">-Quote of the Day </li>
                </ul>
-                  <a href="../Projects/JavaScript" > <button className='me-3'>View projects</button></a>
+                  <a href="../Projects/JavaScript" > <button className=''>View projects</button></a>
               </div>
             </div>
 
@@ -59,7 +59,7 @@ export default function page() {
                <ul className=" list-group-flush mb-3 ">
                  <li className="list-group-item pe-5">-My Portfolio</li>
                </ul>
-                  <a href="../Projects/NextAndReact" > <button className='me-4'>View projects</button></a>
+                  <a href="../Projects/NextAndReact" > <button className=''>View projects</button></a>
               </div>
             </div>
             </div>
