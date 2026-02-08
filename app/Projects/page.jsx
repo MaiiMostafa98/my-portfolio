@@ -45,6 +45,7 @@ export default function page() {
                  <li className="list-group-item pe-5">-Quote of the Day </li>
                  <li className="list-group-item pe-5">-Book Marker</li>
                  <li className="list-group-item pe-5">-Products Dashboard</li>
+                 <li className="list-group-item pe-5">-Chef's Menu</li>
                </ul>
                   <a href="../Projects/JavaScript" > <button className='me-3'>View projects</button></a>
               </div>
