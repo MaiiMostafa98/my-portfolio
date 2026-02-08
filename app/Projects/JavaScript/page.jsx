@@ -59,6 +59,25 @@ export default function page() {
 
             </div>
 
+
+            <div className='row  pb-3'>
+
+             <div className=' col-sm-12 col-md-12 projects1  '>
+             <div className="text-center">
+             <h2 class="text-center">Chef’s Menu</h2>
+             <p><strong>Description:</strong> A simple and elegant restaurant menu website built using the <strong>Forkify API</strong>, allowing users to explore a variety of meals and food categories easily.</p>
+             <p><strong>Details:</strong>The project displays different menu categories such as Breakfast, Dessert, Pizza, and more.</p>
+             <p> Built using HTML, Bootstrap, and JavaScript.The design is fully responsive and works seamlessly across desktops, tablets, and mobile devices.</p>
+
+             <div className="d-flex justify-content-center">
+             <a href="https://maiimostafa98.github.io/chef-s-menu/" target="_blank" rel="noopener noreferrer">
+             <button>Project Link</button></a>
+             </div>
+             </div>
+             </div>
+
+            </div>
+
             </div>
   
   </>

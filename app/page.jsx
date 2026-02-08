@@ -4,8 +4,8 @@ import Link from 'next/link'
 import Image from 'next/image'
 // import myImage from '../app/images/3.png'
 // import myImage from './images/ai-maii.jpeg'
-import myImage from './images/ChatGPT Image Feb 7, 2026, 10_35_54 AM.png'
-// import myImage from './images/myImg 1.jpeg'
+// import myImage from './images/ChatGPT Image Feb 7, 2026, 10_35_54 AM.png'
+import myImage from './images/myImg 1.jpeg'
 import React from 'react'
 
 export default function page() {
