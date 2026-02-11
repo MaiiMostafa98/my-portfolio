@@ -21,12 +21,15 @@
 {
     /* background-color: rgb(169, 149, 185) ; */
     background-color: rgb(232, 232, 232) ;
+    /* background-color: #F8FAFC; */
     width: 100%;
     position: fixed;
     z-index: 9999;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(98, 97, 97, 0.19);
+    box-shadow: 0 4px 8px 0 rgba(84, 84, 84, 0.2), 0 6px 20px 0 rgba(98, 97, 97, 0.19);
     border-bottom-left-radius: 7px;
     border-bottom-right-radius: 7px;
+
+    
 }
 
 .navbar1 button
@@ -40,12 +43,14 @@
 .navbar-logo
 {
     
-    color:rgb(125, 89, 125); 
+    /* color:rgb(125, 89, 125);  */
+    /* color: #656566; */
+    color:rgb(83, 80, 84); 
     font-family: "Agustina Regular";
     font-optical-sizing:inherit;
     font-weight: 500;
     font-style:italic;
-    text-shadow: 2px 2px 2px rgb(165, 157, 165);
+    text-shadow: 2px 2px 2px rgb(172, 171, 172);
 }
 
 
@@ -60,7 +65,10 @@ li
 ul li a
 {
     text-decoration: none;
-    color: rgb(135, 101, 135);
+    /* color: rgb(135, 101, 135); */
+    /* color: #656566; */
+    /* color:rgb(119, 57, 142);  */
+    color:rgb(83, 80, 84); 
     border: transparent solid 3px;
     /* border-radius: 5px; */
     transition: 0.5s;
@@ -73,6 +81,8 @@ ul li a:hover
     color: rgb(96, 79, 96);
     /* background-color: grey; */
     border-bottom: rgb(179, 113, 165) solid 3px;
+    /* border-bottom: rgb(117, 59, 138) solid 3px; */
+
     /* border-radius: 5px; */
 }
 
@@ -80,16 +90,12 @@ ul li a:hover
 {
     /* border-radius: 10px; */
     /* border: 2px solid transparent; */
-    padding: 30px 30px 0px 30px ;
+    /* padding: 30px 30px 0px 30px ; */
     width: 90%;
     margin: auto;
-    margin-top: 150px;
-    margin-bottom: 50px;
+    margin-top: 130px;
     /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgb(126, 125, 128); */
 }
-
-
-
 
 
 .home-intro
@@ -104,6 +110,8 @@ ul li a:hover
     padding: 5px 0px;
     /* color: rgb(167, 144, 187); */
     color:  rgb(179, 113, 165);
+    /* color: #6D28D9; */
+    letter-spacing: 1px;
 }
 
 .p 
@@ -114,9 +122,9 @@ ul li a:hover
 .home-intro  button
 {
     padding: 10px 30px;
-    margin: 60px 10px 10px 0px;
+    /* margin: 60px 10px 10px 0px; */
     /* background-color: rgb(188, 165, 207); */
-     background-color: rgb(179, 113, 165);
+    background-color: rgb(179, 113, 165);
     border-radius: 15px ;
     border:solid 2px rgb(190, 189, 189);
     color:rgb(244, 243, 246) ;
@@ -126,7 +134,7 @@ ul li a:hover
 .home-intro  button:hover
 {
     padding: 10px 30px;
-    margin: 60px 10px 10px 0px;
+    /* margin: 60px 10px 10px 0px; */
    background-color: rgb(143, 143, 144);
     border-radius: 15px ;
     border:solid 2px rgb(190, 189, 189);
@@ -175,6 +183,7 @@ ul li a:hover
    width: 100%;
    display: flex;
    justify-content:space-around;
+   margin-top: 20px;
 }
 
 
@@ -187,8 +196,8 @@ ul li a:hover
 
     border-radius: 50%;
     border:solid 2px rgb(190, 189, 189);  
-    box-shadow:  0 6px 10px 0 rgba(0, 0, 0, 0.4), 0 10px 30px 5px rgb(168, 143, 188);
-
+    /* box-shadow:  0 6px 10px 0 rgba(0, 0, 0, 0.4), 0 10px 30px 5px rgb(168, 143, 188); */
+    box-shadow:  0 6px 10px 0 rgba(152, 67, 125, 0.4), 0 10px 30px 5px rgb(113, 110, 116);
 
     pointer-events: none; 
     user-select: none;    
@@ -227,13 +236,13 @@ ul li a:hover
 {
     
     width: 60%;
-   border-left: 2px solid rgb(221, 220, 220);
+   /* border-left: 2px solid rgb(221, 220, 220); */
   
 }
 
 .pageintro
 {
-   padding: 3px 0px 30px 0px;
+   padding: 3px 0px 20px 0px;
    color: gray;
    width: 100%;
    
@@ -242,9 +251,9 @@ ul li a:hover
 .aboutme
 {
   
-  padding-right: 60px;
+  /* padding-right: 60px; */
   width: 20%;
-  margin-bottom: 25px;
+  margin-bottom: 15px;
   
 }
 
@@ -261,7 +270,7 @@ ul li a:hover
  .pageintro button
 {
     padding: 10px 15px;
-    margin: 40px 10px 30px 0px;
+    margin: 10px 10px 0px 0px;
     background-color: rgb(179, 113, 165);
     border-radius: 15px ;
     border:solid 2px rgb(190, 189, 189);
@@ -272,7 +281,7 @@ ul li a:hover
 .pageintro button:hover
 {
     padding: 10px 15px;
-    margin: 40px 10px 30px 0px;
+    /* margin: 40px 10px 30px 0px; */
     background-color: rgb(143, 143, 144);
     border-radius: 15px ;
     border:solid 2px rgb(190, 189, 189);
@@ -287,13 +296,13 @@ ul li a:hover
 
 .page-card
 {
-    border-radius: 10px;
-    border: 2px solid transparent;
-    padding: 20px 60px 30px 50px ;
+    /* border-radius: 10px; */
+    /* border: 2px solid transparent; */
+    /* padding: 20px 0px 30px 50px ; */
     width: 90%;
     margin: auto;
-    margin-top: 150px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgb(126, 125, 128);
+    margin-top: 120px;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgb(126, 125, 128); */
 }
 
 /* --------------------------------------------------------------------------- */
@@ -369,7 +378,7 @@ ul li a:hover
     width: 90%;
     margin: auto;
     margin-top: 130px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgb(126, 125, 128);
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgb(126, 125, 128); */
 }
 
 .line1
@@ -384,8 +393,8 @@ ul li a:hover
 .projects
 {
     border-radius: 5px;
-    padding: 15px 20px 0px 20px;
-    margin: 30px 0px 0px 0px;
+    padding: 15px 10px 0px 10px;
+    /* margin: 30px 0px 0px 0px; */
     transition: 1s;
     /* border: solid 2px transparent; */
      border: solid 2px #d7d7d7;

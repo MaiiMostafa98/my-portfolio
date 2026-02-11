@@ -12,7 +12,7 @@ export default function page() {
             <h1 className='h2'>About Me</h1>
         </div>
   
-  <div className=' pt-3 pb-3 row '>
+  <div className='  row '>
 
 
     <div className='leftSide col-md-4  '>
@@ -34,7 +34,7 @@ export default function page() {
       </tbody>
     </table>
 
-      <div className='me-5'>
+      <div className='me-5 my-5'>
          <Link href="/Projects"><button ><strong>View My Projects</strong></button></Link>
          <Link href="https://drive.google.com/file/d/1VsiOTWLPwPqPXL5xV80ZHZHSTWC7PYoy/view?usp=sharing" target="_blank"><button ><strong>Download CV</strong></button></Link>
      </div>
@@ -44,24 +44,24 @@ export default function page() {
     </div>
 
 
-    <div className='rightSide ps-5  col-md-8'>
+    <div className='rightSide  col-md-8'>
         <div className='pt-4 pb-4'>
         <h4>My Skills: </h4>
         <div>
           <p className='pt-3'>HTML 95%</p>
-           <div className="progress me-5" role="progressbar" aria-label="Basic example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+           <div className="progress " role="progressbar" aria-label="Basic example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
             <div className=" width" ></div>
            </div>
            <p className='pt-3'>CSS 85%</p>
-           <div className="progress me-5" role="progressbar" aria-label="Basic example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+           <div className="progress " role="progressbar" aria-label="Basic example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
             <div className=" width-85" ></div>
            </div>
            <p className='pt-3'>Bootstrap 85%</p>
-           <div className="progress me-5" role="progressbar" aria-label="Basic example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+           <div className="progress " role="progressbar" aria-label="Basic example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
             <div className=" width-85" ></div>
            </div>
            <p className='pt-3'>javaScript 50%</p>
-           <div className="progress me-5" role="progressbar" aria-label="Basic example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+           <div className="progress " role="progressbar" aria-label="Basic example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
             <div className=" w-50 bg-lavander" ></div>
            </div>
            {/* <p className='pt-3'>React 50%</p>
@@ -69,7 +69,7 @@ export default function page() {
             <div className=" w-50 bg-lavander" ></div>
            </div> */}
            <p className='pt-3'>React.js & Next.js 75%</p>
-           <div className="progress me-5" role="progressbar" aria-label="Basic example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+           <div className="progress " role="progressbar" aria-label="Basic example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
             <div className=" w-75 bg-lavander" ></div>
            </div>
 

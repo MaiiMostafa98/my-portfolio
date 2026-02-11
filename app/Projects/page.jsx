@@ -7,14 +7,11 @@ import Link from 'next/link'
 export default function page() {
   return <>
   
-
-   <div className=' mb-4  '>
-
             <div className='aboutme'>
                 <h1 className='h2'>My Projects</h1>
             </div>
             
-            <div className='row  pb-3 justify-content-around'>
+            <div className='row  mb-3 justify-content-around'>
 
             <div className=' col-sm-12 col-md-12 projects   '>
               <div className='  text-center  '>
@@ -35,7 +32,7 @@ export default function page() {
             </div>
 
 
-             <div className='row  pb-3 justify-content-around'>
+             <div className='row  mb-3 justify-content-around'>
 
              <div className=' col-sm-12 col-md-12 projects  '>
               <div className='  text-center  '>
@@ -51,20 +48,11 @@ export default function page() {
               </div>
             </div>
 
-           <div className='row  pb-3 justify-content-around'></div>
-            <div className=' col-sm-12 col-md-12 projects  '>
-              <div className='  text-center  '>
-                  <h2 className='text-center h4'>React and Next.js Projects</h2>
-                  <p>Clean and responsive front-end projects developed using Next.js.  </p>
-               <ul className=" list-group-flush mb-3 ">
-                 <li className="list-group-item pe-5">-My Portfolio</li>
-               </ul>
-                  <a href="../Projects/NextAndReact" > <button className=''>View projects</button></a>
-              </div>
-            </div>
             </div>
 
-            </div>
+
+
+
 
         
 
