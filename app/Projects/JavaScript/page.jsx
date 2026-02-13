@@ -23,6 +23,22 @@ export default function page() {
             </div>
 
 
+              <div className='row  pb-3'>
+             <div className=' col-sm-12 col-md-12 projects1  '>
+             <div className="text-center">
+             <h2 className="text-center">Weather Website</h2>
+             <p><strong>Description:</strong> A responsive weather Web site that fetches real-time weather data and 3-day forecasts using <strong>WeatherAPI</strong>. </p>
+             <p><strong>Details:</strong>The web site displays temperature, weather conditions, icons, and dynamic data based on user search input</p>
+             <p> Built using HTML, Bootstrap, and JavaScript.The design is fully responsive and works seamlessly across desktops, tablets, and mobile devices.</p>
+             <div className="d-flex justify-content-center">
+             <a href="https://maiimostafa98.github.io/Weather/" target="_blank" rel="noopener noreferrer">
+             <button>Project Link</button></a>
+             </div>
+             </div>
+             </div>
+            </div>
+
+
             <div className='row  pb-3'>
 
              <div className=' col-sm-12 col-md-12 projects1  '>

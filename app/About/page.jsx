@@ -36,7 +36,9 @@ export default function page() {
 
       <div className='me-5 my-5'>
          <Link href="/Projects"><button ><strong>View My Projects</strong></button></Link>
-         <Link href="https://drive.google.com/file/d/1VsiOTWLPwPqPXL5xV80ZHZHSTWC7PYoy/view?usp=sharing" target="_blank"><button ><strong>Download CV</strong></button></Link>
+         <a href="/Maii-Mostafa-Front-End-Developer.pdf" download={"Maii-Mostafa-CV.pdf"} className=""><button ><strong>Download CV</strong></button></a>
+
+         {/* <Link href="https://drive.google.com/file/d/1VsiOTWLPwPqPXL5xV80ZHZHSTWC7PYoy/view?usp=sharing" target="_blank"><button ><strong>Download CV</strong></button></Link> */}
      </div>
        
        {/* <button ><a href="https://www.linkedin.com/in/maii-mostafa-b11a47188/" target="_blank">Linked-In</a></button>     */}
@@ -60,17 +62,17 @@ export default function page() {
            <div className="progress " role="progressbar" aria-label="Basic example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
             <div className=" width-85" ></div>
            </div>
-           <p className='pt-3'>javaScript 50%</p>
+           <p className='pt-3'>javaScript 75%</p>
+           <div className="progress " role="progressbar" aria-label="Basic example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+            <div className=" w-75 bg-lavander" ></div>
+           </div>
+           <p className='pt-3'>React.js 50%</p>
            <div className="progress " role="progressbar" aria-label="Basic example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
             <div className=" w-50 bg-lavander" ></div>
            </div>
-           {/* <p className='pt-3'>React 50%</p>
-           <div className="progress me-5" role="progressbar" aria-label="Basic example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-            <div className=" w-50 bg-lavander" ></div>
-           </div> */}
-           <p className='pt-3'>React.js & Next.js 75%</p>
+           <p className='pt-3'>Next.js 50%</p>
            <div className="progress " role="progressbar" aria-label="Basic example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-            <div className=" w-75 bg-lavander" ></div>
+            <div className=" w-50 bg-lavander" ></div>
            </div>
 
         </div>
