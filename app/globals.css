@@ -215,10 +215,17 @@ ul li a:hover
   
 }
 
+.progresss
+{
+    width: 100%;
+    background-color: rgb(173, 173, 173);
+}
+
 .width
 {
    width: 95%;
    background-color: rgb(179, 113, 165);
+   
 }
 
 .width-85
@@ -253,7 +260,7 @@ ul li a:hover
   
   /* padding-right: 60px; */
   width: 20%;
-  margin-bottom: 15px;
+  margin-bottom: 5px;
   
 }
 
@@ -271,7 +278,7 @@ ul li a:hover
 {
     padding: 10px 15px;
     margin: 10px 10px 0px 0px;
-    background-color: rgb(179, 113, 165);
+    background-color: rgb(143, 143, 144);
     border-radius: 15px ;
     border:solid 2px rgb(190, 189, 189);
     color:rgb(244, 243, 246) ;
@@ -282,7 +289,7 @@ ul li a:hover
 {
     padding: 10px 15px;
     /* margin: 40px 10px 30px 0px; */
-    background-color: rgb(143, 143, 144);
+    background-color: rgb(179, 113, 165);
     border-radius: 15px ;
     border:solid 2px rgb(190, 189, 189);
     color:rgb(244, 243, 246) ;
@@ -301,10 +308,22 @@ ul li a:hover
     /* padding: 20px 0px 30px 50px ; */
     width: 90%;
     margin: auto;
-    margin-top: 120px;
+    margin-top: 100px;
+    
     /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgb(126, 125, 128); */
 }
 
+
+.icon
+{
+    width: 40px ;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid rgb(179, 113, 165);
+}
 /* --------------------------------------------------------------------------- */
 .pageintro-proj
 {
